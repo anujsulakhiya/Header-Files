@@ -78,3 +78,27 @@ int inverted_half_pyramid(int m)
     printf("\n");
   }
 }
+/*
+This Function is use to print Hollow Inverted Half pyramid
+format = hollow_inverted_half_pyramid(m);
+*/
+int hollow_inverted_half_pyramid(int m)
+{
+  int i,j;
+
+  for(i=m;i>=1;i--)
+  {
+    for(j=i;j>=1;j--)
+    {
+      if(i==1||i==m||j==1||j==i)
+      {
+        printf("*");
+      }
+      else
+      {
+        printf(" ");
+      }
+    }
+    printf("\n");
+  }
+}
