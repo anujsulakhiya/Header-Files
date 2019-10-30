@@ -1,11 +1,13 @@
 /********************************************
 This header file is created by "HeSmartHasmaker"
 uploaded on https://github.com/HeSmartHasmaker
+On Date (31/10/2019)
 *********************************************/
 
 /*
 This Function is use to print Simple rectangle
 format = rectangle(raws,coulums);
+Uploaded On Date (31/10/2019)
 */
 int rectangle(int m,int n)
 {
@@ -23,6 +25,7 @@ int rectangle(int m,int n)
 /*
 This Function is use to print Hollow rectangle
 format = hollow_rectangle(raws,coulums);
+Uploaded On Date (31/10/2019)
 */
 int hollow_rectangle(int m,int n)
 {
@@ -47,6 +50,7 @@ int hollow_rectangle(int m,int n)
 /*
 This Function is use to print Half pyramid
 format = half_pyramid(m);
+Uploaded On Date (31/10/2019)
 */
 int half_pyramid(int m)
 {
@@ -64,6 +68,7 @@ int half_pyramid(int m)
 /*
 This Function is use to print Inverted Half pyramid
 format = inverted_half_pyramid(m);
+Uploaded On Date (31/10/2019)
 */
 int inverted_half_pyramid(int m)
 {
@@ -81,6 +86,7 @@ int inverted_half_pyramid(int m)
 /*
 This Function is use to print Hollow Inverted Half pyramid
 format = hollow_inverted_half_pyramid(m);
+Uploaded On Date (31/10/2019)
 */
 int hollow_inverted_half_pyramid(int m)
 {
