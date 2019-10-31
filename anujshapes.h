@@ -108,3 +108,26 @@ int hollow_inverted_half_pyramid(int m)
     printf("\n");
   }
 }
+/*
+This Function is use to print full pyramid
+format = full_pyramid(m);
+Uploaded On Date (31/10/2019)
+*/
+int full_pyramid(int m)
+{
+  int i,j,k=0;
+
+  for(i=1;i<=m;++i,k=0)
+  {
+    for(j=1;j<=m-i;++j)
+    {
+      printf(" ");
+    }
+    while(k!=2*i-1)
+    {
+      printf("*");
+      ++k;
+    }
+    printf("\n");
+  }
+}
